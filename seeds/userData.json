@@ -1,17 +1,17 @@
 [
   {
-    "name": 
-    "email": 
-    "password": 
+    "name": "test",
+    "email": "test1@gmail.com",
+    "password": "PASSWORD"
   },
   {
-    "name": 
-    "email": 
-    "password": 
+    "name": "tEST",
+    "email": "test2@gmail.com",
+    "password": "PASSWORD"
   },
   {
-    "name": 
-    "email": 
-    "password": 
+    "name": "test",
+    "email": "test3@gmail.com",
+    "password": "PASSWORD"
   }
 ]
