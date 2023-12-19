@@ -1,13 +1,26 @@
-header, .blog:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: white;
+  min-height: 100vh;
+}
+
 
 .no-button {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #bb0000;
   text-decoration: none;
   font-size: 100%;
 }
@@ -17,12 +30,75 @@ header, .blog:not(:last-child) {
   text-decoration: underline;
 }
 
-body {
-  background: linear-gradient(to bottom,  white, rgb(234, 7, 7)) no-repeat;
+.flex-column {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
-h1 {
-  color:#0066CC;
-  flex-wrap: wrap;
-  size: 75px;
+
+/* ... Your existing styles ... */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+#nav-mobile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-logout-container {
+  display: flex; /* Display children horizontally */
+  align-items: center; /* Align children vertically in the center */
+}
+
+/* ... Your existing styles ... */
+
+.tooltip {
+  position: relative;
+  cursor: help;
+}
+
+
+.card-content {
+  text-align: center;
+}
+
+
+.tooltip:hover::after {
+  content: attr(title);
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+header {
+  background-color: #1976D2;
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
