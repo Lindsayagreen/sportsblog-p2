@@ -16,3 +16,13 @@ header, .blog:not(:last-child) {
   color: #065b83;
   text-decoration: underline;
 }
+
+body {
+  background: linear-gradient(to bottom,  white, rgb(234, 7, 7)) no-repeat;
+  min-height: 100vh;
+}
+h1 {
+  color:#0066CC;
+  flex-wrap: wrap;
+  size: 75px;
+}
