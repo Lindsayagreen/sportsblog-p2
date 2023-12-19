@@ -13,15 +13,29 @@
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
       <h1><a href="/"> TEXAS SPORTS TALK </h1>
-      <nav>
+      {{!-- can delete 16-26 when done --}}
+      {{!-- <nav> --}}
         <!-- Conditionally render login or logout links -->
-        <a href="/">Home</a> |
+        {{!-- <a href="/">Home</a> |
         {{#if logged_in}}
         <a href="/profile">profile</a> |
         <button class="no-button" id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
         {{/if}}
+      </nav> --}}
+      <nav>
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            {{#if logged_in}}
+            <li><a href="/profile">profile</a></li>
+            <button class="no-button" id="logout">logout</button>
+            {{else}}
+            <li><a href="/login">login</a></li>
+            {{/if}}
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="container container-fluid mt-5">
@@ -29,7 +43,7 @@
       {{{ body }}}
     </main>
     <footer>
-      
+
     </footer>
   </div>
 
