@@ -55,8 +55,10 @@ nav ul li {
 }
 
 .profile-logout-container {
-  display: flex; /* Display children horizontally */
-  align-items: center; /* Align children vertically in the center */
+  display: flex;
+  /* Display children horizontally */
+  align-items: center;
+  /* Align children vertically in the center */
 }
 
 /* ... Your existing styles ... */
@@ -100,5 +102,29 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 10px;
+  text-align: center;
+}
+
+.form.new-blog-form {
+  max-width: 400px;
+  /* Adjust the maximum width as needed */
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.custom-class {
+  background-color: black;
+  /* Set your desired background color */
+  color: #fff;
+  /* Set your desired text color */
+  padding: 10px;
+
+}
+
+.custom-header {
+
   text-align: center;
 }
