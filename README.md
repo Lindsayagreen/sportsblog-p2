@@ -2,7 +2,7 @@
   ## Texas Sports Talk      
   
   ## Description
-  This is a blog discussing Texas sports from all leagues. Users are able to sign up for an account as well post content under their respective username.
+  This is a blog discussing Texas sports from all leagues around the Lone Star State. Users are able to sign up for an account and post content under their respective username.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -13,20 +13,18 @@
   - [Questions](#questions)
   
   ## Installation
-  N/A
+  Any user can clone the repository provided here "https://github.com/Lindsayagreen/sportsblog-p2.git". Please make sure you download correct dependencies for your package-json file by using npm install.
   
   ## Usage
-  User friendly for all devices 
+  User friendly for all devices and all Texas sport enthusiast.
   
   ## License
-  This project is licensed under the None license.
-  
+  None
   
   ## Contributing
-  undefined
+  Contributing writers are Lauren Morrison, Terrence McCarthy, Ernest Beecherl, Christian Saleh, and Lindsay Green
   
-  ## Tests
-  undefined
-  
+  ## Demo
+
   ## Questions
-  My email [lindsgree@gmail.com](mailto:lindsgree@gmail.com). You can also find me on [GitHub](https://github.com/lindsayagreen).
+   Email [lindsgree@gmail.com, Lauren.morrison00@gmail.com, terrencemccarthysnkrs@gmail.com, Christianmsaleh@gmail.com, ernestbeecherl98@gmail.com](mailto:lindsgree@gmail.com)
