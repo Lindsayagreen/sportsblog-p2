@@ -13,5 +13,10 @@
         "name": "My blog about the Dallas Stars",
         "description": "i dont watch hockey but go stars",
         "team": "Dallas Stars"
+    },
+    {
+        "name": "Latest News on Texas Rangers",
+        "description": "Max Scherzer, the Ranger's Pitcher, has surgery on his herniated disk and will miss the start of the 2024 season",
+        "team": "Texas Rangers"
     }
-]
+] 
