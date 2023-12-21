@@ -24,7 +24,14 @@
   ## Contributing
   Contributing writers are Lauren Morrison, Terrence McCarthy, Ernest Beecherl, Christian Saleh, and Lindsay Green
   
-  ## Demo
+  ## Technologies Used
+  Materialize, Bcrypt, session-sequalize, dotenv, express, express-handlebars,express-session, mysql2
 
   ## Questions
    Email [lindsgree@gmail.com, Lauren.morrison00@gmail.com, terrencemccarthysnkrs@gmail.com, Christianmsaleh@gmail.com, ernestbeecherl98@gmail.com](mailto:lindsgree@gmail.com)
+
+  ## Deployed Application
+
+  * Screenshot
+
+  ![Screenshot](./images/sportBlogSS.png)
