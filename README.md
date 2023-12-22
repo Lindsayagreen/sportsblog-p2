@@ -31,7 +31,11 @@
    Email [lindsgree@gmail.com, Lauren.morrison00@gmail.com, terrencemccarthysnkrs@gmail.com, Christianmsaleh@gmail.com, ernestbeecherl98@gmail.com](mailto:lindsgree@gmail.com)
 
   ## Deployed Application
+  https://sheltered-caverns-18399-2a3903a3dc84.herokuapp.com/
 
-  * Screenshot
+  ## Github repo
+  https://github.com/Lindsayagreen/sportsblog-p2
+
+  ## Screenshot
 
   ![Screenshot](./images/sportBlogSS.png)
